@@ -16,7 +16,7 @@ a img {
 	-webkit-box-shadow: 3px 3px 4px 0px #a3a3a3;
 	box-shadow:         3px 3px 4px 0px #a3a3a3;
 	border-top:1px solid #9a9a9a;
-	background:#00423F;
+	background:#AA8A57;
 }
 .page {
 	width:960px;
@@ -36,7 +36,7 @@ a img {
 	border-width: 1px;
 }
 .sidebar{
-	background-color:#D4D3D9;
+	background-color:#FFFDFD;
 	width:200px;
 	float:left;
 	height:auto;
@@ -54,6 +54,7 @@ a img {
 	margin:0;
 	list-style:none;
 }
+
 .sidebar ul li {
 	text-align:right;
 	padding:29px 27px 0 0;
@@ -74,7 +75,7 @@ a img {
 .sidebar p {
 	clear:both;
 	text-align:center;
-	color:#fff;
+    color:#71AFA4;
 	text-shadow:0 1px 0 #797979;
 	line-height:24px;
 	font-size:12px;
@@ -86,7 +87,7 @@ a img {
 	float:left;
 	width:728px;
 	position: relative;
-	background:#e3e3e3;
+	background:#71AFA4;
 	height:auto;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
@@ -94,14 +95,14 @@ a img {
 	border-width: 1px;
 }
 .body div h2 {
-	color: #919191;
+	color: #cccc99;
 	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 	line-height: 30px;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #7d7d7d;
+	color: #cccc99;
 	padding:36px 0 0 22px;
 	margin:0;
 }
@@ -109,7 +110,7 @@ a img {
 	font-family: 'Conv_Muli-Italic';
 	font-size:16px;
 	line-height:24px;
-	color:#808080;
+	color:#cccc99;
 	padding:0 0 0 22px;
 	margin: 23px 0 30px;
 }
@@ -125,7 +126,7 @@ a img {
 .body div div h3 span {
 	font-family: 'Conv_Muli-Regular';
 	font-size:18px;
-	color:#7d7d7d;
+	color:#cccc99;
 	font-weight:normal;
 	display:block;
 	width: 140px;
@@ -166,10 +167,10 @@ a img {
 	text-decoration:none;
 }
 .body div div ul li a span:hover {
-	color: #919191;
+	color: #cccc99;
 }
 .body div div ul li a span {
-	color:#7c7c7c;
+	color:#cccc99;
 	font-size:24px;
 	text-transform:uppercase;
 	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -201,7 +202,7 @@ a img {
 }
 .body div div.section ul li span {
 	font-family: 'Conv_Muli-Regular';
-	color:#7d7d7d;
+	color:#cccc99;
 	font-size:12px;
 	display:block;
 	line-height:24px;
@@ -217,5 +218,5 @@ a img {
 	height:auto;
 }
 .body div div.section ul li a:hover {
-	color:#404040;
+	color:#cccc99;
 }
