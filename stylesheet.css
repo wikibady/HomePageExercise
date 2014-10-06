@@ -1,0 +1,220 @@
+
+body {
+	margin:0;
+}
+a {
+	outline:none;
+}
+a img {
+	border:0;
+	display:block;
+}
+.border {
+	position:relative;
+	margin: 25px 0;
+	-moz-box-shadow:    3px 3px 4px 0px #a3a3a3;
+	-webkit-box-shadow: 3px 3px 4px 0px #a3a3a3;
+	box-shadow:         3px 3px 4px 0px #a3a3a3;
+	border-top:1px solid #9a9a9a;
+	background:#00423F;
+}
+.page {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#bg {
+	height: 99.8%;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	text-indent: -99999px;
+	width: 51%;
+	z-index: 0;
+	border-color: #E5E5E5;
+	border-style: solid none none;
+	border-width: 1px;
+}
+.sidebar{
+	background-color:#D4D3D9;
+	width:200px;
+	float:left;
+	height:960px;
+	position: relative;
+	}
+.sidebar #logo{
+	float:right;
+    position:relative;
+	left:-20px;
+	bottom:-20px;
+}
+.sidebar ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.sidebar ul li {
+	text-align:right;
+	padding:29px 27px 0 0;
+}
+.sidebar ul li.selected a, .sidebar ul li a:hover {
+	color:#6b6b6b;
+}
+.sidebar ul li a {
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size:24px;
+	color:#919191;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-decoration:none;
+	line-height:30px;
+	text-shadow:0 1px 0 #dfdfdf;
+	}
+.sidebar p {
+	clear:both;
+	text-align:center;
+	color:#fff;
+	text-shadow:0 1px 0 #797979;
+	line-height:24px;
+	font-size:12px;
+	margin:0;
+	letter-spacing:0.001em;
+	font-family: 'Conv_Muli-Regular';
+	}
+.body {
+	float:left;
+	width:728px;
+	position: relative;
+	background:#e3e3e3;
+	height:935px;
+	padding: 0 0 25px;
+	border-color: #dfdfdf;
+	border-style: none none none solid;
+	border-width: 1px;
+}
+.body div h2 {
+	color: #919191;
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7d7d7d;
+	padding:36px 0 0 22px;
+	margin:0;
+}
+.body div p {
+	font-family: 'Conv_Muli-Italic';
+	font-size:16px;
+	line-height:24px;
+	color:#808080;
+	padding:0 0 0 22px;
+	margin: 23px 0 30px;
+}
+.body div div {
+	background:none;
+	box-shadow:none;
+	margin: 0 21px;
+}
+.body div div h3 {
+	background: repeat-x right center;
+	margin:20px 0 24px;
+}
+.body div div h3 span {
+	font-family: 'Conv_Muli-Regular';
+	font-size:18px;
+	color:#7d7d7d;
+	font-weight:normal;
+	display:block;
+	width: 140px;
+}
+.body div div p {
+	padding:0;
+}
+.body div div ul {
+	margin:0;
+	padding:4px 0 7px;
+	list-style:none;
+	overflow:hidden;
+}
+.body div div ul li {
+	float:left;
+	height: 257px;
+	width: 217px;
+	position:relative;
+	margin:0 0 0 7px;
+}
+.body div div ul li#link1 {
+	background:url(../img/trello.jpg) no-repeat;
+}
+.body div div ul li#link1:hover, .body div div ul li#link2:hover, .body div div ul li#link3:hover {
+	filter:alpha(opacity=90);
+	opacity:0.9;
+}
+.body div div ul li#link2 {
+	background:url(../img/github.jpg) no-repeat;
+}
+.body div div ul li#link3 {
+	background:url(../img/slack.jpg) no-repeat;
+}
+.body div div ul li a {
+	height: 257px;
+	width: 217px;
+	display:inline-block;
+	text-decoration:none;
+}
+.body div div ul li a span:hover {
+	color: #919191;
+}
+.body div div ul li a span {
+	color:#7c7c7c;
+	font-size:24px;
+	text-transform:uppercase;
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-decoration:none;
+	position:relative;
+	float:right;
+	top: 210px;
+	right:16px;
+}
+.body div div.section ul {
+	height:200px;
+	padding-bottom: 33px;
+}
+.body div div.section ul li:first-child {
+	margin:0;
+}
+.body div div.section ul li {
+	text-align:center;
+	background: 0 113px;
+	width:200px;
+	margin: 0 0 0 32px;
+}
+.body div div.section ul li a:first-child {
+	height:auto;
+	margin:0 0 13px 0;
+}
+.body div div.section ul li a:first-child img {
+	border:1px solid #e3e3e3;
+}
+.body div div.section ul li span {
+	font-family: 'Conv_Muli-Regular';
+	color:#7d7d7d;
+	font-size:12px;
+	display:block;
+	line-height:24px;
+}
+.body div div.section ul li a {
+	width:auto;
+	font-size:14px;
+	color:#7d7d7d;
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:normal;
+	height:auto;
+}
+.body div div.section ul li a:hover {
+	color:#404040;
+}
