@@ -16,7 +16,7 @@ a img {
 	-webkit-box-shadow: 3px 3px 4px 0px #a3a3a3;
 	box-shadow:         3px 3px 4px 0px #a3a3a3;
 	border-top:1px solid #9a9a9a;
-	background:#AA8A57;
+	background:#318734;
 }
 .page {
 	width:960px;
@@ -36,7 +36,7 @@ a img {
 	border-width: 1px;
 }
 .sidebar{
-	background-color:#FFFDFD;
+	background-color:#FFF86B;
 	width:200px;
 	float:left;
 	height:auto;
@@ -60,12 +60,12 @@ a img {
 	padding:29px 27px 0 0;
 }
 .sidebar ul li.selected a, .sidebar ul li a:hover {
-	color:#6b6b6b;
+	color:#9FFA8F;
 }
 .sidebar ul li a {
 	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-size:24px;
-	color:#919191;
+	color:#7997DC;
 	font-weight:normal;
 	text-transform:uppercase;
 	text-decoration:none;
@@ -87,7 +87,7 @@ a img {
 	float:left;
 	width:728px;
 	position: relative;
-	background:#71AFA4;
+	background:#ffffff;
 	height:auto;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
