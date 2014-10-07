@@ -10,8 +10,8 @@
 		<div id="bg">
 			background
 		</div>
-		<div class="page">
-			<div class="sidebar">
+		<div class="page" id="main">
+			<div class="sidebar" id="left">
 				<a href="index.html" id="logo"><img src="image/img/logo.png" alt="logo" id="img"></a>
 				<br><br><br><br>
 				<ul>
@@ -36,7 +36,7 @@
 					</li>
 					<br><br><br><br>
 				</ul>
-                <br><br><br><br><br>
+ 
 				<p>
 					Copyright 2014
 				</p>
@@ -44,7 +44,7 @@
 					wikibady in Interweb Lab
 				</p>
 			</div>
-			<div class="body">
+			<div class="body" id="right">
 				<div>
 					<h2>欢迎来到小地鼠</h2>
 					<p>
@@ -75,7 +75,7 @@
 								<a href="member.html"><img src="" ></a> <span>成员一</span> <span>成员一昵称</span></a> 
 							</li>
 							<li>
-								<a href="member.html"><img src="" ></a> <span>成员二</span> <span>成员二昵称</span></a> 
+								<a href="member.html"><img src="" ></a> <span><span>成员二</span></span> <span>成员二昵称</span></a> 
 							</li>
 							<li>
 								<a href="member.html"><img src="" ></a> <span>成员三</span> <span>成员二昵称</span></a> 
@@ -87,4 +87,8 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+document.getElementById("right").style.height=document.getElementById("main").scrollHeight+"px";
+document.getElementById("left").style.height=document.getElementById("main").scrollHeight-2+"px";
+</script>
 </html>

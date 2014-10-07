@@ -40,9 +40,12 @@ a img {
 	width:200px;
 	float:left;
 	height:auto;
+
 	position: relative;
-	bottom:-8px;
+
+
 	}
+	
 .sidebar #logo{
 	float:right;
     position:relative;
@@ -75,7 +78,7 @@ a img {
 .sidebar p {
 	clear:both;
 	text-align:center;
-    color:#71AFA4;
+    color:#ffffff;
 	text-shadow:0 1px 0 #797979;
 	line-height:24px;
 	font-size:12px;
@@ -89,6 +92,8 @@ a img {
 	position: relative;
 	background:#ffffff;
 	height:auto;
+	min-height:965px ;
+    max-height:1500px;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
 	border-style: none none none solid;
@@ -148,17 +153,21 @@ a img {
 	margin:0 0 0 7px;
 }
 .body div div ul li#link1 {
-	background:url(../img/trello.jpg) no-repeat;
+	background:url(../image/img/trello.jpg) no-repeat;
 }
 .body div div ul li#link1:hover, .body div div ul li#link2:hover, .body div div ul li#link3:hover {
 	filter:alpha(opacity=90);
 	opacity:0.9;
 }
 .body div div ul li#link2 {
-	background:url(../img/github.jpg) no-repeat;
+	background:url(../image/img/github.png) no-repeat;
+	position:relative;
+	right:-15px;
 }
 .body div div ul li#link3 {
-	background:url(../img/slack.jpg) no-repeat;
+	background:url(../image/img/slack.png) no-repeat;
+	position:relative;
+	right:-20px;
 }
 .body div div ul li a {
 	height: 257px;
@@ -168,6 +177,7 @@ a img {
 }
 .body div div ul li a span:hover {
 	color: #cccc99;
+	
 }
 .body div div ul li a span {
 	color:#cccc99;
@@ -176,10 +186,11 @@ a img {
 	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	text-decoration:none;
 	position:relative;
-	float:right;
+	float:center;
 	top: 210px;
-	right:16px;
+	right:-60px;
 }
+
 .body div div.section ul {
 	height:200px;
 	padding-bottom: 33px;

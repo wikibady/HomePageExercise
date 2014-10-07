@@ -9,12 +9,12 @@
 		<div id="bg">
 			background
 		</div>
-		<div class="page">
-			<div class="sidebar">
-				<a href="../" id="logo"><img src="image/img/logo.png" alt="logo"></a>
+		<div class="page" id="main">
+			<div class="sidebar" id="left">
+				<a href="index.html" id="logo"><img src="image/img/logo.png" alt="logo" id="img"></a>
 				<br><br><br><br>
 				<ul>
-					<li>
+					<li >
 						<a href="index.html">Ð¡µØÊóµÄ¼ò½é</a>
 					</li>
 					<br><br><br><br>
@@ -35,7 +35,7 @@
 					</li>
 					<br><br><br><br>
 				</ul>
-                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
 				<p>
 					Copyright 2014
 				</p>
@@ -44,7 +44,7 @@
 				</p>
 			</div>
 			
-			<div class="body">
+			<div class="body" id="right">
 				<div class="content">
 					<div id="primary">
 						<h1>
@@ -84,4 +84,8 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+document.getElementById("right").style.height=document.getElementById("main").scrollHeight+"px";
+document.getElementById("left").style.height=document.getElementById("main").scrollHeight-2+"px";
+</script>
 </html>
