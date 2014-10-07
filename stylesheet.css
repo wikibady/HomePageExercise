@@ -93,6 +93,7 @@ a img {
 	background:#ffffff;
 	height:auto;
 	min-height:965px ;
+    max-height:1500px;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
 	border-style: none none none solid;
