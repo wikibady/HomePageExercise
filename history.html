@@ -6,15 +6,12 @@
 </head>
 <body>
 	<div class="border">
-		<div id="bg">
-			background
-		</div>
-		<div class="page">
-			<div class="sidebar">
-				<a href="../" id="logo"><img src="images/logo.png" alt="logo"></a>
+		<div class="page" id="main">
+			<div class="sidebar" id="left">
+				<a href="index.html" id="logo"><img src="image/img/logo.png" alt="logo" id="img"></a>
 				<br><br><br><br>
 				<ul>
-					<li class="selected">
+					<li >
 						<a href="index.html">小地鼠的简介</a>
 					</li>
 					<br><br><br><br>
@@ -26,7 +23,7 @@
 						<a href="result.html">小地鼠的成果</a>
 					</li>
 					<br><br><br><br>
-					<li>
+					<li class="selected">
 						<a href="history.html">小地鼠的历程</a>
 					</li>
                     <br><br><br><br>
@@ -35,16 +32,17 @@
 					</li>
 					<br><br><br><br>
 				</ul>
-                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div id="p"> 
 				<p>
 					Copyright 2014
 				</p>
 				<p>
 					wikibady in Interweb Lab
 				</p>
+				</div>
 			</div>
 			
-			<div class="body">
+			<div class="body" id="right">
 				<div class="content">
 					<h4>梦想萌芽</h4>
 					<p>说者无心，听者有意。一个创办俱乐部的梦想就在炎炎暑假的一个傍晚萌发。</p>
@@ -82,4 +80,8 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+document.getElementById("right").style.height=document.getElementById("main").scrollHeight+"px";
+document.getElementById("left").style.height=document.getElementById("main").scrollHeight-2+"px";
+</script>
 </html>

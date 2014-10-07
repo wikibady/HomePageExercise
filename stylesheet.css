@@ -11,11 +11,8 @@ a img {
 }
 .border {
 	position:relative;
-	margin: 25px 0;
-	-moz-box-shadow:    3px 3px 4px 0px #a3a3a3;
-	-webkit-box-shadow: 3px 3px 4px 0px #a3a3a3;
-	box-shadow:         3px 3px 4px 0px #a3a3a3;
-	border-top:1px solid #9a9a9a;
+
+	min-height:907px;
 	background:#318734;
 }
 .page {
@@ -23,23 +20,13 @@ a img {
 	margin:0 auto;
 	overflow:hidden;
 }
-#bg {
-	height: 99.8%;
-	left: 0;
-	margin: 0;
-	position: absolute;
-	text-indent: -99999px;
-	width: 51%;
-	z-index: 0;
-	border-color: #E5E5E5;
-	border-style: solid none none;
-	border-width: 1px;
-}
+
 .sidebar{
 	background-color:#FFF86B;
 	width:200px;
 	float:left;
 	height:auto;
+	min-height:907px;
 
 	position: relative;
 
@@ -54,7 +41,7 @@ a img {
 }
 .sidebar ul {
 	padding:0;
-	margin:0;
+	margin-top:70px;
 	list-style:none;
 }
 
@@ -75,7 +62,7 @@ a img {
 	line-height:30px;
 	text-shadow:0 1px 0 #dfdfdf;
 	}
-.sidebar p {
+#p {
 	clear:both;
 	text-align:center;
     color:#ffffff;
@@ -85,6 +72,9 @@ a img {
 	margin:0;
 	letter-spacing:0.001em;
 	font-family: 'Conv_Muli-Regular';
+	position: absolute;
+	bottom:10px;
+	left:40px;
 	}
 .body {
 	float:left;
@@ -92,12 +82,11 @@ a img {
 	position: relative;
 	background:#ffffff;
 	height:auto;
-	min-height:965px ;
-    max-height:1500px;
 	padding: 0 0 25px;
 	border-color: #dfdfdf;
 	border-style: none none none solid;
 	border-width: 1px;
+	min-height:907px;
 }
 .body div h2 {
 	color: #cccc99;
